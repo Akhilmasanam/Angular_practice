@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "akhil",
+      "age": 26,
+      "place": "khammam"
+    },
+    {
+      "name": "nikhil",
+      "age": 27,
+      "place": "hyderabad"
+    }
+  ],
+  "usersdata": [
+    {
+      "rollno": "6",
+      "name": "akhil masanam",
+      "email": "akhilmasanam77@gmail.com",
+      "id": 13
+    },
+    {
+      "rollno": "1",
+      "name": "akhil masanam",
+      "email": "akhilmasanam77@gmail.com",
+      "id": 14
+    },
+    {
+      "rollno": "1",
+      "name": "akhil masanam",
+      "email": "akhilmasanam77@gmail.com",
+      "id": 15
+    },
+    {
+      "rollno": "1",
+      "name": "akhil masanam",
+      "email": "akhilmasanam77@gmail.com",
+      "id": 16
+    },
+    {
+      "rollno": "1",
+      "name": "akhil masanam",
+      "email": "akhilmasanam77@gmail.com",
+      "id": 17
+    },
+    {
+      "rollno": "0",
+      "name": "akhil masanam",
+      "email": "akhilmasanam77@gmail.com",
+      "id": 18
+    },
+    {
+      "rollno": "1",
+      "name": "akhil masanam",
+      "email": "akhilmasanam77@gmail.com",
+      "id": 19
+    },
+    {
+      "rollno": "5",
+      "name": "akhil masanam",
+      "email": "akhilmasanam77@gmail.com",
+      "id": 20
+    }
+  ]
+}

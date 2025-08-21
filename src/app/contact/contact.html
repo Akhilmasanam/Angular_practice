@@ -1,0 +1,8 @@
+<p>reuse coponent by transfering the data to the child coponent</p>
+
+@for(user of users;track user){
+  <app-profile [user]="user"></app-profile>
+}
+<h1>{{currency|currencyexchange}}</h1>
+<h1>{{currency|currencyexchange:50}}</h1>
+

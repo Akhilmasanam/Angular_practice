@@ -1,0 +1,9 @@
+
+<h1> the user name is {{username}}</h1>
+<h1>{{currency}}</h1>
+<button (click)="getproductsdata()">testprodutslist</button>
+
+@for(product of testproductserrvices; track product){
+  <h1>{{product.name}}</h1>
+
+}

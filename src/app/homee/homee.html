@@ -1,0 +1,14 @@
+<p>homee works!</p>
+<h1> passing data from home page to profile page</h1>
+<a [routerLink]="['/profile',{name:'akhil'}]">profile page</a>
+
+<button (click)="gotoprofile('akhil')">profile page akhil</button>
+<button (click)="gotoprofile('nikhil')">profile page nikhil</button>
+
+<h1>dynamic routing</h1>
+
+@for(user of users; track user.id){
+  <ul>
+    <li><a routerLink="/user/{{user.id}}/{{user.name}}">{{user.name}}</a></li>
+  </ul>
+}

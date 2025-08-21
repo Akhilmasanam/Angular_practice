@@ -1,0 +1,13 @@
+<p>testapi works!</p>
+
+@for (product of outputproductsdata; track product.id){
+  <ul>
+    <li>
+ <h3> product id:{{product.id}}</h3>
+  <h3> procduct name:{{product.title}}</h3>
+   <h3>poduct price{{product.price}}</h3>
+   <img src="{{product.thumbnail}}" alt='image is not visible'>
+   </li>
+   </ul>
+
+}

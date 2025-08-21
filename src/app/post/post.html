@@ -1,0 +1,21 @@
+<p>post works!</p>
+<form  #data="ngForm" (ngSubmit)="submited(data.value)">
+<input type="text" name='rollno' placeholder="rollno" [ngModel]=selecteduser?.rollno><br><br>
+<input type="text"  name='name'placeholder="name" [ngModel]=selecteduser?.name><br><br>
+<input type="text"  name='email' placeholder="email"[ngModel]=selecteduser?.email><br><br>
+@if(!selecteduser){
+  <button>submit</button>
+}@else {
+  <button>updateuser</button>
+}
+</form>
+
+@for(user of usersdata; track user.id){
+  <ul>
+    <li>{{user.rollno}} </li>
+    <li>{{user.name}} </li>
+    <li>{{user.email}} </li>
+    <li><button (click)="deleateuser(user.id)">deleate user</button> <button (click)="updateuser(user.id)">updateuser</button></li>
+  </ul>
+
+}
